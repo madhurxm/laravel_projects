@@ -1,0 +1,97 @@
+html{
+    scroll-behavior:smooth
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+}
+div{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+#nav_div{
+    
+    height: 9vh;
+    /* min-height: 9vh;
+    height: 10%; */
+    max-width: 100vw;
+
+}
+#div1{
+    background-image: url("../img/div_img/banner_bg.jpg");
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    /* image-resolution:initial; */
+
+}
+#div1_text{
+    text-align: center;
+}
+
+#div2{
+    background-image: url("../img/div_img/about-bg.jpg");
+    /* height:100vh; */
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    /* image-resolution:initial; */
+}
+
+#div3{
+    background-color: rgba(255, 254, 254, 0.479);
+    /* height:100vh; */
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    /* image-resolution:initial; */
+}
+
+#div4{
+    background-color: rgba(201, 156, 32, 0.877);
+    /* height:100vh; */
+    min-height: 100vh;
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top:120px !important;
+    padding-left: 270PX !important;
+    padding-right: 270px !important;
+    /* background-repeat:no-repeat; */
+
+}
+#div5{
+    background-image: url("../img/div_img/blog-bg.jpg");
+    /* height:100vh; */
+    min-height: 100vh;
+    height: 100%;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-repeat:no-repeat;
+    /* image-resolution:initial; */
+
+
+}
+#div6{
+    background-color: rgba(201, 156, 32, 0.877);
+    /* height:100vh; */
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    padding-top:120px !important;
+    padding-left: 270PX !important;
+    padding-right: 270px !important;
+    /* background-repeat:no-repeat; */
+
+}
