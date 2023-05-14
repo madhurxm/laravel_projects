@@ -20,7 +20,7 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Address</th>
-
+                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -29,6 +29,16 @@
                             <td>{{ $val->name }}</td>
                             <td>{{ $val->email }}</td>
                             <td>{{ $val->address }}</td>
+                            <td>
+                                <a href="{{ route('customer.delete',['id'=>$val->id]) }}">
+                                    <button type="button" name="" id="{{ $val->id }}"
+                                        class="btn btn-primary">Delete</button>
+                                </a>
+                                <a href="{{ route('customer.edit',['id'=>$val->id]) }}">
+                                    <button type="button" name="" id="{{ $val->id }}"
+                                        class="btn btn-primary">Edit</button>
+                                </a>
+                            </td>
                         </tr>
                     @endforeach
 
