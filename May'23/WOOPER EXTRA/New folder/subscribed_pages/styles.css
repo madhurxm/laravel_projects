@@ -1,0 +1,168 @@
+bodyy {
+  background-image: url("homepage.png");
+  background-attachment: fixed;
+}
+bodyy:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(0, 0, 0, 0.9) 10%,
+    rgba(0, 0, 0, 0.8) 20%,
+    rgba(0, 0, 0, 0.7) 35%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.4) 65%,
+    rgba(0, 0, 0, 0.3) 75%,
+    rgba(0, 0, 0, 0.2) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.logo {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  width: 190px;
+  height: 50px;
+  margin-bottom: 0px;
+}
+.navbar_getstarted {
+  /* background-color: rgb(255, 255, 255); */
+
+  /* position: fixed;
+  right: 0;
+  left: 0; */
+  /* z-index: 1030; */
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0px 0 18px rgba(55, 66, 65, 0.40);
+}
+.get_started_signin_btn {
+  font-family: "Questrial", sans-serif;
+  background: none;
+  border-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  padding: 0.55em 1.5em 0.5em;
+  box-shadow: 0px 0 10px rgba(55, 66, 59, 0.600)
+}
+.get_started_line1 {
+  font-family: "Anton", sans-serif;
+}
+.get_started_line2 {
+  font-family: "Faustina", serif;
+  font-weight: 500;
+}
+.get_started_line3 {
+  font-family: "Faustina", serif;
+  font-weight: 400;
+  font-size: x-large;
+}
+.get_started_starting_btn {
+  background-color: #10b6df;
+  border-radius: 5px;
+  border-color: #10b6df;
+  font-size: 20px;
+  padding: 8px 28px;
+  font-family: "Oswald", sans-serif;
+}
+hr {
+  width: 600px;
+  border-top: 1px solid white;
+  opacity: 100%;
+}
+.plans_heading {
+  color: white;
+}
+.plans_para1 {
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  padding-inline: 350px;
+  color: rgb(200, 200, 200);
+}
+.plans_para2 {
+  padding-inline: 350px;
+  color: rgb(170, 170, 170);
+}
+.plans_col1 {
+  background-color: #ffffff;
+}
+.plans_col2 {
+  background-color: #ffc4dd;
+}
+.plans_col3 {
+  background-color: #b9ff66;
+}
+.plans_col4 {
+  background-color: #83d7e0;
+}
+.plan_type_title {
+  font-family: "Cookie", cursive;
+  font-weight: 700;
+  font-size: 28px;
+}
+.plan_type_detail {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Crimson Text", serif;
+}
+.plan_price_explain {
+  font-size: 16px;
+  color: rgb(78, 77, 77);
+}
+.plan_price {
+  font-family: "Anton", sans-serif;
+  color: black;
+}
+.plan_detail_hr {
+  border-top: 1px solid rgb(148, 148, 148);
+  opacity: 100%;
+}
+.plan_details_heading {
+  font-weight: 600;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.plan_details_points {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+/* ------------------------------- */
+.reg_form_col {
+  border: 0px solid white;
+  border-radius: 25px;
+  background: url("form_background.jpg");
+  background-size: cover;
+  background-origin: border-box;
+  z-index: 1009;
+  box-shadow: rgba(78, 22, 22, 0.25) 0px 34px 35px, rgba(68, 19, 19, 0.12) 0px -12px 30px, rgba(153, 41, 41, 0.12) 0px 4px 6px, rgba(104, 28, 28, 0.17) 0px 12px 13px, rgba(134, 33, 33, 0.09) 0px -3px 5px;
+}
+.reg_form_heading {
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Poppins, sans-serif;
+}
+.reg_form_submit_button {
+  background-color: rgb(245, 160, 134);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 1px;
+  border: 0px solid white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer_container{
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+}
+.video_cols{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
