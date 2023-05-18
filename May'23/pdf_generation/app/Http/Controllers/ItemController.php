@@ -5,6 +5,8 @@ use App\Http\Requests;
 use Illuminate\Http\Request;  
 use DB;  
 use PDF;  
+use App\Exports\UsersExport;
+use Maatwebsite\Excel\Facades\Excel;
   
 class ItemController extends Controller  
 {  
@@ -21,5 +23,11 @@ class ItemController extends Controller
         }  
   
         return view('download');  
-    }  
+    }
+    public function excel()
+    {
+        
+            return Excel::download(new UsersExport, 'users.xlsx');
+        
+    }
 }  

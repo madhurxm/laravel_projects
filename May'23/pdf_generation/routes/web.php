@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/',array('as'=>'pdfview','uses'=>'ItemController@pdfview'));  
+Route::get('/excel','ItemController@excel')->name('excel');  

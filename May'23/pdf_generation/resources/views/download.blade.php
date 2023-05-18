@@ -8,5 +8,6 @@
 </head>
 <body>
     <a href="{{ route('pdfview',['download'=>'pdf']) }}">Download PDF</a>
+    <a href="{{ route('excel') }}">Download Excel</a>
 </body>
 </html>
