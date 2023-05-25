@@ -10,5 +10,8 @@
     <a href="{{ route('pdfview',['download'=>'pdf']) }}">Download PDF</a>
     <a href="{{ route('excel_export') }}">Download Excel</a>
     <a href="{{ url("/excel-import") }}">Import Excel</a>
+    <a href="{{ url("/plan-excel") }}">Download Plan-wise Excel</a>
+
+
 </body>
 </html>

@@ -9,6 +9,7 @@ use App\Imports\UsersImport;
 use App\Exports\UsersExportss;
 use Maatwebsite\Excel\Facades\Excel;
 use App\custs;
+use App\PlansModel;
   
 class ItemController extends Controller  
 {  
@@ -48,5 +49,19 @@ class ItemController extends Controller
         $records = new custs;
         $records = $records->get();
         return view('import_excel')->with(compact('records'));
+    }
+
+    public function post_plan_excel()
+    {
+        $plans_records = new PlansModel;
+        $plansrecords = $records->select('plan_id','planname')->get();
+        return view('excel_select')->with(compact('records'));
+    }
+    public function get_plan_excel()
+    {
+    //     $records = new custs;
+    //     $records = $records->get();
+        return view('excel_select');
+        // ->with(compact('records'));
     }
 }  
