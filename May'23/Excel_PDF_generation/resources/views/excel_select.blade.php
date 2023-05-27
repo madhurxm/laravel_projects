@@ -9,28 +9,32 @@
         rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
         crossorigin="anonymous">
-    <title>Document</title>
+    <title>Document1</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row m-5">
             <div class="col">
-                <form action="{{ url('excel-import') }}" method="POST"
+                <form action="{{ url('/plan-excel') }}" method="GET"
                     enctype="multipart/form-data">
                     @csrf
-
                     
 
                     <div class="mb-3">
-                        <select class="form-select" name="plan_id">
+                        <select class="form-select" name="planname">
                             <option selected>Select Plan ID</option>
+                            
+                            @foreach ($all_plans as $plans)
+                            <option value="{{ $plans->planname }}">{{ $plans->planname }}</option>                   
+                            @endforeach
+                            
  
                         </select>
                     </div>
-                    <a name="" id="" class="btn btn-success btn-sm"
+                    <button type="submit" name="get_excel" id="" class="btn btn-success btn-sm"
                         href="" role="button">Download Excel
-                    </a>
+                    </button>
 
                 </form>
 

@@ -24,6 +24,6 @@ Route::post('/excel-import','ItemController@excel_import')->name('excel_import')
 Route::get('/excel-import','ItemController@get_excel_import')->name('import_excel');
 
 Route::get('/plan-excel','ItemController@get_plan_excel')->name('get_plan_excel');
-Route::post('/plan-excel','ItemController@post_plan_excel')->name('post_plan_excel');
+// Route::post('/plan-excel','ItemController@post_plan_excel')->name('post_plan_excel');
 
 
